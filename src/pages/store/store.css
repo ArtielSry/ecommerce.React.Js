@@ -1,0 +1,17 @@
+.store_container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+    .store_container {
+        min-height: 80vh;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .store_container {
+        flex-direction: column;
+    }
+}

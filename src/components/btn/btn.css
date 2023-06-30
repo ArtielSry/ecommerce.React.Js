@@ -1,0 +1,33 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: lighter;
+    border: 2px solid #333333;
+    transition: 0.1s;
+    background-color: #333;
+    cursor: pointer;
+  }
+
+/*   
+  .btn:hover {
+    font-weight: lighter;
+    box-shadow: 0 0 #333;
+    color: #fff;
+    background-color: #333;
+  }
+ */
+
+  @media screen and (max-width: 950px) {
+    .btn {
+      width: 110px;
+      font-size: 12px;
+    }
+ }

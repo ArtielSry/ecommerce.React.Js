@@ -1,0 +1,98 @@
+
+strong {
+    font-weight: 200;
+}
+
+.header img {
+    width: 200px;
+}
+.modal {
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+  }
+  .popup-content{
+    width: 70%;
+  }
+  .modal > .header {
+    width: 100%;
+    color: #000000;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  .content input {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .content button {
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 270px;
+    margin-top: 15px;
+  }
+
+  .button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #cfcece;
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+  }
+  .button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  @media screen and (max-width:1400px){
+      .content button {
+        width: 200px;
+      }
+  }
+
+@media screen and (max-width:900px){
+  .modal > .content {
+    width: 170px;
+  }
+  .content button {
+    font-size: 12px;
+    margin-top: 15px;
+    width: 150px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}

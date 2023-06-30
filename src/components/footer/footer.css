@@ -1,0 +1,29 @@
+.footer_container {
+    color: white;
+    background-color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 !important;
+    bottom: 0 !important;
+    font-size: 15px;
+}
+
+.footer_container img {
+    padding: 1% 0;
+    width: 200px;
+}
+
+
+
+@media screen and (max-width: 650px) { 
+    .footer_container img {
+        width: 165px;
+    }
+
+    .footer_container {
+        font-size: 10px;
+    }
+
+}

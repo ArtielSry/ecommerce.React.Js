@@ -1,0 +1,23 @@
+.video {
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.video_video {
+    width: 100%;
+    filter: grayscale(30%);
+}
+
+@media screen and (max-width: 1450px) {
+    .video {
+        padding: 0;
+        }   
+}
+
+@media screen and (max-width: 1050px) {
+    .video {
+        padding: 0;
+        }   
+}
+
